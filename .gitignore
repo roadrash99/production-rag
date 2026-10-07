@@ -1,0 +1,35 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data
+data/raw/
+data/cache/
+*.dump
+
+# Eval outputs
+evals/scores*.json
+
+# Terraform
+infra/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Frontend
+node_modules/
+.next/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Private working notes
+plan.md
